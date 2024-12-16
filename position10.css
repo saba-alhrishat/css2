@@ -1,0 +1,38 @@
+div {
+    height: 50px;
+    width: 50px;
+   
+    color: black;
+    
+    position: absolute;
+    }
+    .d1 {
+        background-color: lightblue;
+        top: 10px;
+        right: 0;        
+    }
+    
+    .d2 {
+        background-color: rgb(172, 73, 89);
+       
+        position: absolute;
+        z-index: 1;
+        top: 20px;
+        left: 20px;
+    }
+    
+    
+    .d3 {
+        background-color: yellow;
+        position: absolute;
+        bottom: 20px;
+         right: 0;
+        z-index: 2;
+    }
+    .d4 {
+        background-color: green;
+        bottom: 20px;
+        left: 0;
+        position: absolute;
+        z-index: 3;
+    }
